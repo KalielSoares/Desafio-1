@@ -14,7 +14,10 @@ public class produtos
     public void ChangeValue(int n)
     {
         if (n > 0)
+        {
             _Value = n;
+            Console.WriteLine("Valor alterado");
+        }
         else
             Console.WriteLine("Valor inferior a 0");
     }

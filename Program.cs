@@ -11,5 +11,8 @@ public class Program
         
         Caderno.ChangeValue(-12);
         Console.WriteLine(Caderno.GetData());
+        
+        Caderno.ChangeValue(20);
+        Console.WriteLine(Caderno.GetData());
     }
 }
